@@ -14,5 +14,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the Docker image
-      run: docker build --tag f0f979/my-php-app:latest
+    - name: Pull the Docker image
+      run: docker pull f0f979/my-php-app:latest
